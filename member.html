@@ -2,73 +2,198 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projects</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teams</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
 
-            // Get all "navbar-burger" elements
-            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-            // Check if there are any navbar burgers
-            if ($navbarBurgers.length > 0) {
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
 
-                // Add a click event on each of them
-                $navbarBurgers.forEach(el => {
-                    el.addEventListener('click', () => {
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
 
-                        // Get the target from the "data-target" attribute
-                        const target = el.dataset.target;
-                        const $target = document.getElementById(target);
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
 
-                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                        el.classList.toggle('is-active');
-                        $target.classList.toggle('is-active');
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
 
-                    });
-                });
-            }
-
+          });
         });
-    </script>
+      }
+
+    });
+  </script>
 </head>
 
 <body>
-    <div class="hero-head">
-        <nav class="navbar">
-            <div class="container">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="/">
-                        <img src="image/ev_logo.png" />
-                    </a>
-                    <span class="navbar-burger" data-target="navbarMenuHeroA">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </div>
-                <div id="navbarMenuHeroA" class="navbar-menu">
-                    <div class="navbar-end">
-                        <a class="navbar-item is-active" href="about.html">
-                            About
-                        </a>
-                        <a class="navbar-item" href="member.html">
-                            Member
-                        </a>
-                        <a class="navbar-item" href="team.html">
-                            Teams
-                        </a>
-                        <a class="navbar-item" href="project.html">
-                            Projects
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="image/ev_logo.png" />
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" href="about.html">
+              About
+            </a>
+            <a class="navbar-item" href="member.html">
+              Member
+            </a>
+            <a class="navbar-item" href="team.html">
+              Teams
+            </a>
+            <a class="navbar-item" href="project.html">
+              Projects
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <section class="hero is-link is-info">
+    <div class="hero-body" style='margin:auto;'>
+      <p class="title">
+        Teams
+      </p>
     </div>
+  </section>
+
+  <section>
+
+    <section class="container">
+      <div class="title column is-8 is-offset-2" style="margin-top: 20px; margin-bottom:0px;">
+        Electric group
+      </div>
+      <table class="table column is-8 is-offset-2" style="margin-top:0px;">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Amos Gichanga</th>
+            <td>Department of Electric and Electronic Engineering (EEE)</td>
+            <td>4th</td>
+          </tr>
+          <tr>
+            <th>Paul Moses</th>
+            <td>Department of Electric and Electronic Engineering (EEE)</td>
+            <td>4th</td>
+          </tr>
+          <tr>
+            <th>Elias Cheruiyot</th>
+            <td>Department of Agricultural and Bio-systems Engineering (ABED)</td>
+            <td>4th</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="container">
+      <div class="title intro column is-8 is-offset-2" style="margin-top: 20px;margin-bottom:0px;">
+        Mechanical group
+      </div>
+      <table class="table column is-8 is-offset-2" style="margin-top:0px;">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Mark Njimuko</th>
+            <td>Department of Agricultural and Bio-systems Engineering (ABED)</td>
+            <td>4th</td>
+          </tr>
+          <tr>
+            <th>Alex Muchiri</th>
+            <td>Department of Mechanical Engineering</td>
+            <td>4th</td>
+          </tr>
+          <tr>
+            <th>Emmanuel Njenga</th>
+            <td>Department of Agricultural and Bio-systems Engineering (ABED)</td>
+            <td>4th</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="container">
+      <div class="title intro column is-8 is-offset-2" style="margin-top: 20px;margin-bottom:0px;">
+        Automation group
+      </div>
+      <table class="table column is-8 is-offset-2" style="margin-top:0px;">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Adho Mamo</th>
+            <td>Department of Agricultural and Bio-systems Engineering (ABED)</td>
+            <td>4th</td>
+          </tr>
+          <tr>
+            <th>Cynthia Jebet</th>
+            <td>Department of Agricultural and Bio-systems Engineering (ABED)</td>
+            <td>4th</td>
+          </tr>
+          <tr>
+            <th>Allan Were</th>
+            <td>Department of Agricultural and Bio-systems Engineering (ABED)</td>
+            <td>4th</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+    <section class="container">
+      <div class="intro title column is-offset-2 is-8" style="margin-top: 20px; margin-bottom:0px;">
+        Supervisors
+      </div>
+      <div class="column is-offset-2 is-8" style="margin-top:0px;padding-top:0px;padding-left:20px;">
+        <p><b>Dr. Stephen Ondimu</b>, ABED</p>
+          <p><b>Mr. Samuel Otieno</b>, ABED</p>
+          <p><b>Mr. Jackson Oloo</b>, EEE</p>
+          <p><b>Mr. Simon Chege</b>, EEE</p>
+          <p><b>Mr. Kipkorir Rono</b>, Engineering Workshop</p>
+          <p><b>Mr. Joseph Kimani</b>, Mechanical Engineering</p>
+          <p><b>Dr. Shohei Aoki</b>, Mechatronics</p>
+          </div>
+
+     </section>
+
+      </section>
 
 
 </body>
