@@ -1,0 +1,432 @@
+
+a:hover {
+	color: #ffffff;
+}
+
+a {
+	color: #999999;
+}
+.header-bar {
+	background-color: #021f36;
+}
+header.full.stick.sticky {
+	background-color: #021f36;
+}
+nav ul li a,
+.select-language ul li.active a {
+	color: #fff;
+}
+.select-language ul li a {
+	color: #336699;
+}
+.select-language ul li:before {
+	color: #336699;
+}
+nav ul ul li {
+	border-bottom: 1px solid #333;
+}
+.bg2 {
+	background-image: url(../images/resources/bg2.jpg);
+}
+.choosing-que h3:before {
+	background-color: #ffa800;
+}
+.listing-info > a {
+	color: #999999;
+}
+.spec-hd h2 {
+	color: #fff;
+}
+.choosing-que h3 {
+	color: #ffa800;
+}
+.choosing-que p {
+	color: #81909b;
+}
+.title-sm h3 {
+	color: #ffffff;
+}
+.spec-text h3 {
+	color: #ffffff;
+}
+.spec-text p {
+	color: #999999;
+}
+.spec-text a {
+	color: #fff;
+}
+.spec-text ul li a {
+	color: #ffffff;
+}
+.tr-news {
+	background-color: #03253f;
+}
+.treding-new h3 a {
+	color: #fff;
+}
+.treding-new span a {
+	color: #fff;
+}
+.review-comment p {
+	color: #fff;
+}
+.review-comment h4 {
+	color: #ffffff;
+}
+.responsive-mobile-menu ul li.menu-has-items > a:before {
+	color: #fff;
+}
+.alert-danger {
+	color: #fff;
+}
+.treding-new span {
+	color: #999999;
+}
+.wrapper {
+	background-color: #03192b;
+}
+.alert-danger {
+	background-color: #03192b;
+}
+.treding-new p {
+	color: #cccccc;
+}
+.treding-new h5 {
+	color: #999999;
+}
+.review-comment span {
+	color: #cccccc;
+}
+.testimonial-slider .slick-next:hover::before,
+.testimonial-slider .slick-prev:hover::before {
+	color: #fff;
+}
+.testimonial-slider .slick-prev::before,
+.testimonial-slider .slick-next::before {
+	color: #425869;
+}
+nav ul ul li {
+	background-color: #021f36;
+}
+.kons-construct h2 {
+	color: #fff;
+}
+.ms-overlay:before {
+	background-image: url(../images/resources/masonary-bg.png);
+}
+.hd_bar {
+	background-color: #021f36;
+}
+.kons-construct h4 {
+	color: #999999;
+}
+.main-construct-sec {
+	background-color: #032540;
+}
+.cons-img img {
+	border: 1px solid #425c70;
+}
+.kn-title h3 {
+	color: #ffffff;
+}
+.about-kons h4 {
+	color: #ffffff;
+}
+p {
+	color: #999999;
+}
+.our-projects-counter ul li h2 {
+	color: #ffffff;
+}
+.srvc-icon > h3 {
+	color: #ffffff;
+}
+.srvc-icon span {
+	color: #ffa800;
+}
+.service-details {
+	border: 1px solid #435361;
+}
+.rating-star h2 {
+	color: #fff;
+}
+.trust-text h2 {
+	color: #ffffff;
+}
+.post-info li a,
+.post-info li span {
+	color: #999999;
+}
+.post-details > h3 a {
+	color: #fff;
+}
+.post-sm-sec {
+	border-top: 1px solid #425c70;
+	border-right: 1px solid #425c70;
+	border-bottom: 1px solid #425c70;
+	border-left: 5px solid #ffa800;
+}
+.footer-style2 {
+	background-color: #031f35;
+}
+.bottom-strip {
+	background-color: #032540;
+}
+.copyright-text.white p {
+	color: #fff;
+}
+.social-links ul li a {
+	color: #fff;
+}
+.our-info h2 {
+	color: #ffffff;
+}
+.sm-title {
+	color: #fff;
+}
+.our-features {
+	background-color: #032540;
+}
+.feature-info h3 {
+	color: #fff;
+}
+.customer-say span {
+	color: #999999;
+}
+.slick-prev,
+.slick-next {
+	background-color: #032540;
+}
+.bg1 {
+	background-image: url(../images/resources/bg1.jpg);
+}
+.locations-list ul li {
+ 	color: #ffffff;
+}
+.gallery-tabs-head h4 {
+ 	color: #ffffff;
+}
+.gallery-tabs-head a {
+ 	color: #666666;
+}
+.post-title {
+	color: #fff;
+}
+.location-details p {
+	color: #cccccc;
+}
+.house-info ul {
+	background-color: #032540;
+}
+.house-info ul li strong {
+	color: #ffffff;
+}
+.house-info span {
+	color: #ffffff;
+}
+.info-about-house h3 {
+	color: #fff;
+}
+.director-msg p {
+	color: #fff;
+}
+.director-msg h4 {
+	color: #fff;
+}
+.director-msg span {
+	color: #999999;
+}
+.pgr-controls {
+	background-color: #03253f;
+}
+.pgr-controls a {
+	color: #ffffff;
+}
+.heading-title {
+	color: #ffffff;
+}
+.pager-details ul li a {
+	color: #fff;
+}
+.pager-details ul li:before {
+	color: #fff;
+}
+.options ul li a {
+	color: #ffffff;
+}
+.load-more-items a {
+	color: #ffffff;
+}
+.item-info h3 {
+	color: #fff;
+}
+.item-info h3 > a{
+	color: #fff;
+}
+.item-info span {
+	color: #999999;
+}
+.construct-details h2 {
+	color: #ffffff;
+}
+.director-msg {
+	background-color: #032540;
+}
+.director-details h3 {
+	color: #ffffff;
+}
+.cntct-details {
+	background-color: #032540;        
+}
+.contact-address h2 strong {
+	color: #fff;
+}
+.contact-address span b {
+	color: #fff;
+}
+.contact-more-info h2 {
+	color: #fff;
+}
+.address h3 {
+	color: #ffffff;
+}
+.address ul li a {
+	color: #999999;
+}
+.contact-address span {
+	color: #999999;
+}
+.address span {
+	color: #999999;
+}
+.contact-form-sec {
+	background-color: #032540;
+}
+.contact-form-sec h3 {
+	color: #fff;
+}
+.contact-form-sec input,
+.contact-form-sec textarea {
+	border: 1px solid #031f36;
+}
+.pagination li a {
+	color: #fff;
+}
+.listing-info {
+	background-color: #032540;
+}
+.listing-info ul li span,
+.listing-info ul li a {
+	color: #999999;
+}
+.listing-info > h3 {
+	color: #ffffff;
+}
+.widget-title {
+	color: #ffffff;
+}
+.post-details > a {
+	color: #999999;
+}
+.widget-categories ul li a {
+	color: #ffffff;
+}
+.widget-categories > ul > li > a:before {
+	color: #ffffff;
+}
+.widget-categories ul ul li a {
+	color: #999;
+}
+.widget-categories ul ul li a:hover {
+	color: #ffffff;
+}
+.widget-posts ul li a {
+	color: #fff;
+}
+.widget-tags ul li a {
+	color: #999999;
+}
+.main-section {
+	background-color: #03192b;
+}
+.construction-company h2 {
+	color: #ffffff;
+}
+.construction-company h3 {
+	color: rgba(255,255,255,0.8);
+}
+.construction-company p {
+	color: #999999;
+}
+.post-links li span {
+	color: #999999;
+}
+.mindfulness h3 {
+	color: #ffffff;
+}
+.author-comm h2 {
+	color: #fff;
+}
+.author-comm h4 {
+	color: #fff;
+}
+.author-comm span {
+	color: #999999;
+}
+.tags-list ul li a {
+	color: #999999;
+}
+.bd-top {
+	border-top: 1px solid #213444;
+}
+.related-posts h2 {
+	color: #ffffff;
+}
+.post-control-links a {
+	color: #ffffff;
+}
+.post-control-links h4 {
+	color: #999999;
+}
+.contact-section {
+	background-color: #032540;
+}
+.user-comment-form h2 {
+	color: #ffffff;
+}
+.comment-time h4 {
+	color: #fff;
+}
+.comment-time span {
+	color: #999999;
+}
+.user-say > a {
+	color: #999999;
+}
+.widget-categories > ul > li {
+	border-bottom: 1px solid #213444;
+}
+.pgr-controls a:hover {
+	color: #ffa800;
+}
+.tags-list ul li {
+	color: #999999;
+}
+.mobile-menu-btn a {
+	color: #fff;
+}
+.responsive-mobile-menu {
+	background-color: #03192b;
+}
+.responsive-mobile-menu > a {
+	color: #fff;
+}
+.responsive-mobile-menu ul li a {
+	color: #fff;
+}
+.responsive-mobile-menu ul li.menu-has-items > a:before {
+	color: #fff;
+}
+.fp-tableCell {
+	background-color: #021f36;
+}

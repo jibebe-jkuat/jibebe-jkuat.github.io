@@ -1,105 +1,439 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
-  <title>Jibebe</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-
-      // Get all "navbar-burger" elements
-      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-      // Check if there are any navbar burgers
-      if ($navbarBurgers.length > 0) {
-
-        // Add a click event on each of them
-        $navbarBurgers.forEach(el => {
-          el.addEventListener('click', () => {
-
-            // Get the target from the "data-target" attribute
-            const target = el.dataset.target;
-            const $target = document.getElementById(target);
-
-            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-            el.classList.toggle('is-active');
-            $target.classList.toggle('is-active');
-
-          });
-        });
-      }
-
-    });
-  </script>
+<meta charset="UTF-8">
+<title>Jibebe</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+<link rel="stylesheet" type="text/css" href="lib/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/dark-color.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 
 <body>
 
-  <div class="hero-head">
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="/">
-            <img src="image/jibebe_logo.png" />
-          </a>
-          <span class="navbar-burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item" href="project.html">
-                Projects
-            </a>
-            <a class="navbar-item is-active" href="member.html">
-                Members
-            </a>
-            <a class="navbar-item" href="team.html">
-                Teams
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
 
-  <section class="hero is-link is-info">
-    <div class="hero-body" style='margin:auto;'>
-      <p class="title">
-        Welcome to Jibebe Project Website
-      </p>
-    </div>
-  </section>
 
-  <section class="hero" style="margin-top:20px;">
-    <div class="columns is-centered">
-       <div class="column is-one-third">
-        <figure class="image">
-            <img src="./image/group/team.webp"/>
-        </figure>
-    </div>
-  </div>
-  </section>
+	<div class="page-loading">
+		<div class="thecube">
+			<div class="cube c1"></div>
+			<div class="cube c2"></div>
+			<div class="cube c4"></div>
+			<div class="cube c3"></div>
+		</div>
+	</div><!--page-loading end-->
 
-  <section class="section">
-    <div class="container column is-8 is-2-offset">
-      <h1 class="title">
-        Who we are
-      </h1>
-      <p class="subtitle">
-        Electric Vehicle (EV) research group at Jomo Kenyatta University of Agriculture and Technology (JKUAT)
-      </p>
-    </div>
-  </section>
+
+	<div class="wrapper">
+		
+		<header class="pb no-bg stick">
+			<div class="container">
+				<div class="header-bar">
+					<div class="logo">
+						<a href="#" title=""><img src="images/logo.png" alt=""></a>
+					</div><!--logo end-->
+					<nav>
+						<ul>
+							<li><a class="active" href="#" title="">Home</a></li>
+							<li><a href="project.html" title="">Projects</a></li>
+							<li><a href="team.html" title="">Team</a></li>
+							<li><a href="about.html" title="">About</a></li>
+							<li><a href="contact.html" title="">Contact</a></li>
+						</ul>
+					</nav><!--nav end-->
+					<div class="mobile-menu-btn">
+						<a href="#" title="" class="open-menu"><i class="fa fa-bars"></i></a>
+					</div><!--mobile-menu-btn end-->
+					
+				</div><!--header-bar end-->
+			</div>
+		</header>	
 
 
 
+		<div class="responsive-mobile-menu">
+			<a href="#" title="" class="close-menu"><i class="ion-close"></i></a>
+			<ul>
+				<li><a href="#" title="">Home</a>
+					
+				</li>
+				<li><a href="project.html" title="">Projects</a>
+					
+				</li>
+				<li><a href="team.html" title="">Team</a>
+					
+				</li>
+				
+				<li><a href="about.html" title="">About</a></li>
+				<li><a href="contact.html" title="">Contact</a></li>
+			</ul>
+		</div><!--responsive-mobile-menu end-->
+
+		<section class="main-slider style2">
+	        <div class="container">
+	            <div id="rev_slider_476_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="christmas-snow-scene" data-source="gallery" style="background-color:transparent;padding:0px;">
+	            <!-- START REVOLUTION SLIDER 5.3.0.2 fullscreen mode -->
+	                <div id="rev_slider_476_1" class="rev_slider" style="display:none;" data-version="5.3.0.2">
+	                    <ul>    
+	                        <!-- SLIDE  -->
+	                        <li data-index="rs-1648" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider_banner.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+	                            <!-- MAIN IMAGE -->
+	                            <img src="images/back.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="" class="rev-slidebg" data-no-retina>
+	                            <!-- LAYERS -->
+	                            
+	                            <!-- LAYER NR. 1 -->
+	                            <div class="tp-caption lyr3 tp-resizeme" 
+	                                id="slide-1648-layer-1" 
+	                                data-x="center" data-hoffset="0" 
+	                                data-y="center" data-voffset="-200" 
+	                                data-width="['auto']"
+	                                data-height="['auto']"
+	                                data-type="text" 
+	                                data-responsive_offset="on" 
+	                                data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":700,"ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'  
+	                                data-paddingtop="[0,0,0,0]"
+	                                data-paddingright="[0,0,0,0]"
+	                                data-paddingbottom="[15,15,15,15]"
+	                                data-paddingleft="[0,0,0,0]"
+	                                data-start="200"
+	                                data-splitin="chars"
+	                                data-splitout="none"
+	                                data-elementdelay="0.04"
+	                                style="">“ Whatever good <br >things we build end <br />up building us ”
+	                            </div>
+
+	                            <!-- LAYER NR. 2 -->
+	                            <div class="tp-caption lyr4 tp-resizeme" 
+	                                id="slide-1648-layer-2" 
+	                                data-x="center" data-hoffset="0" 
+	                                data-y="center" data-voffset="-35" 
+	                                data-width="['auto']"
+	                                data-height="['auto']"
+	                                data-type="text" 
+	                                data-responsive_offset="on" 
+	                                data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'  
+	                                data-paddingtop="[0,0,0,0]"
+	                                data-paddingright="[0,0,0,0]"
+	                                data-paddingbottom="[10,10,10,10]"
+	                                data-paddingleft="[0,0,0,0]"
+	                                data-start="2000"
+	                                data-splitin="chars"
+	                                data-splitout="none"
+	                                data-elementdelay="0.06"
+	                                style="">by jim rhon
+	                            </div>
+	                            <!-- LAYER NR. 3 -->
+	                            <a href="demo.html" title="" class="tp-caption layera stt2 tp-resizeme"
+	                                id="slide-1-layer-3"
+	                                data-x="center" data-hoffset="0"
+	                                data-y="center" data-voffset="60		"
+	                                data-width="['auto','auto','auto','auto']"
+	                                data-height="['auto','auto','auto','auto']"
+	                                data-transform_idle="o:1;" 
+	                                data-frames='[{"from":"y:50px;opacity:0;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{}]'  
+	                                data-paddingtop="[20,20,20,20]"
+	                                data-paddingright="[20,20,20,20]"
+	                                data-paddingbottom="[20,20,20,20]"
+	                                data-paddingleft="[20,20,20,20]"
+	                                data-start="1500"
+	                                data-splitin="none"
+	                                data-splitout="none"
+	                                data-elementdelay="0.05"
+	                                style="">view tricycle demo
+	                            </a>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div><!--Revolution Slider end-->
+	            <div class="cntct-info">
+	            	<div class="container">
+	            		<div class="cntct-info-details">
+		            		<!-- <div class="our-addrs-info">
+		            			<ul>
+		            				<li>
+		            					Email:
+		            					<strong>hello@kons.co</strong>
+		            				</li>
+		            				<li>
+		            					Phone:
+		            					<strong class="scnd">(+035) 527-1710-70</strong>
+		            				</li>
+		            			</ul>
+		            		</div>
+		            		 -->
+		            		<!--our-addrs-info end-->
+		            		<div class="soc-links">
+		            			<ul>
+		            				<li>Follow us:</li>
+		            				
+		            				<li><a href="https://www.youtube.com/channel/UCZqe9sZcUhZmKEHVN72ko4g" title="Jibebe Youtube"><i class="fa fa-youtube"></i></a></li>
+		            				<li><a href="https://github.com/jibebe-jkuat" title="Jibebe Github"><i class="fa fa-github"></i></a></li>
+		            				
+		            			</ul>
+		            		</div>
+	            		</div><!--cntct-info-details end-->
+	            	</div>
+	            </div><!--cntct-info end-->
+	        </div>
+	    </section><!--main-slider end-->
+
+
+	    <main>
+
+		    <section class="mg-top-minus">
+		    	<div class="container3">
+			    	<div class="block">
+			    		<div class="fixed-bg bg2"></div>
+			    		<div class="why-choose-us">
+			    			<div class="title-sm">
+			    				<h3>Jibebe at a glance</h3>
+			    			</div><!--title-sm end-->
+			    			<div class="our-specifications">
+			    				<div class="row">
+			    					<div class="col-lg-6">
+			    						<div class="spec-hd">
+			    							<h2>The Jibebe project aims to deliver both a production-ready electric tricycle and the first fully autonomous electric tractor with self-tilling capabilites.</h2>
+			    						</div>
+			    					</div>
+			    					<div class="col-lg-6">
+			    						<div class="properties">
+			    							<div class="choosing-que">
+			    								<h3>Electric Tricycle</h3>
+			    								<p>The electric tricycle was commissioned by the APDK(Association for the Physically Disabled of Kenya) to provide an easy and affordable mobility solution to disabled persons</p>
+			    							</div><!--choosing-que end-->
+			    							<div class="choosing-que">
+			    								<h3>Autonomous Tractor</h3>
+			    								<p>This was an addition to the existing tractor aiming to modify it to an electric version. The tractor would also be upgraded to be fully autonomous and have self-tilling capabilities  </p>
+			    							</div><!--choosing-que end-->
+			    								
+			    						</div><!--properties end-->
+			    					</div>
+			    				</div>
+			    			</div><!--our-specifications end-->
+			    		</div><!--why-choose-us end-->
+			    	</div>
+		    	</div>
+		    </section>
+
+		    <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			<div class="title-sm">
+		    				<h3>our projects</h3>
+		    			</div><!-- title-sm end-->
+		    			<div class="specialization-data">
+		    				<div class="specialization">
+				    			<div class="spec-details">
+				    				<div class="row">
+				    					<div class="col-lg-8">
+				    						<div class="spec-img">
+				    							<figure>
+				    								<img src="images/tricycle.png" alt="">
+				    							</figure>
+				    						</div><!--spec-img end-->
+				    					</div>
+				    					<div class="col-lg-4">
+				    						<div class="spec-text right-bdr right">
+				    							<h3>Electric Tricycle</h3>
+				    							<p>The tricycle was made as an upgrade to existing hand powered mobility vehicles.</p>
+				    							<a href="tricycle.html" title="">Learn More</a>
+				    						</div><!--spec-text end-->
+				    					</div>
+				    				</div>
+				    			</div><!--spec-details end-->
+			    			</div><!--specialization end-->
+			    			<div class="specialization style2">
+				    			<div class="spec-details">
+				    				<div class="row">
+				    					<div class="col-lg-5">
+				    						<div class="spec-text bfr ep-icon">
+				    							<h3>Shujaa Tractor</h3>
+				    							<p>Electric feaatures and fully autonomy were added to the existing tractor. (Ongoing)</p>
+				    							<a href="shujaa.html" title="">Learn More</a>
+				    						</div><!--spec-text end-->
+				    					</div>
+				    					<div class="col-lg-7">
+				    						<div class="spec-img">
+				    							<figure>
+				    								<img src="images/shujaa.png" alt="">
+				    							</figure>
+				    						</div><!--spec-img end-->
+				    					</div>
+				    				</div>
+				    			</div><!--spec-details end-->
+			    			</div><!--specialization end-->
+			    		
+		    			</div><!--specialization-data end-->
+		    		</div>
+		    	</div>
+		    </section>
+
+		    <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="title-sm">
+		    			<h3>Our Gallery</h3>
+		    		</div><!--title-sm end-->
+					<div class="house-imgs-slides style2 no-pd">
+						<div class="house-slider style2">
+							<div class="house-slide">
+								<img src="images/image01.png" alt="">
+								<div class="hs-info">
+									<div class="container">
+										<h3>Electric Tricycle Presentation at JKUAT</h3>
+										
+									</div>
+								</div><!--hs-info end-->
+							</div><!--house-slide end-->
+							<div class="house-slide">
+								<img src="images/image02.png" alt="">
+								<div class="hs-info">
+									<div class="container">
+										<h3>Team meeting at JKUAT Mechanical Workshop</h3>
+										
+									</div>
+								</div><!--hs-info end-->
+							</div><!--house-slide end-->
+							<div class="house-slide">
+								<img src="images/image03.png" alt="">
+								<div class="hs-info">
+									<div class="container">
+										<h3>Tricycle Testing</h3>
+										
+									</div>
+								</div><!--hs-info end-->
+							</div><!--house-slide end-->
+							<div class="house-slide">
+								<img src="images/image04.png" alt="">
+								<div class="hs-info">
+									<div class="container">
+										<h3>Tricycle Display Hub</h3>
+										
+									</div>
+								</div><!--hs-info end-->
+							</div><!--house-slide end-->
+						</div><!--house-slider end-->
+					</div><!--house-imgs-slides end-->
+		    	</div>
+		    </section>
+
+		    
+
+
+		    <section>
+		    	<div class="block no-padding">
+		    		<div class="container">
+		    			<div class="partners-section style2">
+							<div class="container">
+								<div class="title-sm ta-left">
+									<h3>our partners</h3>
+								</div><!--title end-->
+								<ul class="partner-carousel">
+									<li><a href="https://www.jkuat.ac.ke/" title="JKUAT"><img src="images/jkuat.jpg" alt=""></a></li>
+									<li><a href="https://www.jica.go.jp/english/?" title="JICA"><img src="images/jica.jpg" alt=""></a></li>
+									<li><a href="https://pau-au.africa/institutes/pausti" title="PAUSTI"><img src="images/pausti.jpg" alt=""></a></li>
+									<li><a href="https://www.apdk.org/" title="APDK"><img src="images/apdk.png" alt=""></a></li>
+									
+								</ul>
+							</div>
+						</div><!--partners-section end-->
+		    		</div>
+		    	</div>
+		    </section>
+
+
+		    <section>
+		    	<div class="block mg-btm--25">
+		    		<div class="fixed-bg bg2"></div>
+		    		<div class="container">
+		    			<div class="testimonial-slider">
+		    				<div class="review-comment">
+		    					<p>“It’s been an absolute pleasure to work with the Jibebe team, their response to our requirements exceeded expectations and the execution was efficient, professional and very reassuring. I fully appreciate them.”</p>
+		    					<h4>Mr Athony Nzuki </h4>
+		    					<span>CEO at APDK</span>
+		    				</div><!--review-comment end-->
+		    				<div class="review-comment">
+		    					<p>“I have had a lot of fun working with the team. The foundations we have laid here will lead to greater things”</p>
+		    					<h4>Mr Moses Mulwa</h4>
+		    					<span>Electrical Engineer at Jibebe</span>
+		    				</div><!--review-comment end-->
+		    				
+		    			</div><!--testimonial-slider end-->
+		    		</div>
+		    	</div>
+		    </section>s
+
+	    </main>
+
+	    <footer>
+			<div class="footer-data">
+				<div class="container">
+					<div class="ft-contact-info">
+						<h1>Let’s work together</h1>
+						<!-- <h1>hello@kons.co</h1> -->
+						<h3>Jomo Kenyatta University of Agriculture and Technology</h3>
+						<h3>P.O. Box 62 000 – 00200 </h3>
+						<h3>NAIROBI, KENYA</h3>
+						<!-- <h3>(+035) 527-1710-70</h3> -->
+					</div><!--ft-contact-info end-->
+					<div class="social-copyright">
+						<ul>
+							<li><a href="#" title="">Youtube</a></li>
+							<li><a href="#" title="">Github</a></li>
+						</ul>
+						<p>Made by <a href="https://mulwa.co.ke/">Mulwa</a></p>
+						<div class="copyright-text">
+							<p>© 2022 Jibebe. All Rights Reserved</p>
+							
+						</div>
+					</div><!--social-copyright end-->
+				</div>
+			</div><!--footer-data end-->
+		</footer>
+
+
+
+	</div><!--wrapper end-->
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/slick/slick.js"></script>
+<script type="text/javascript" src="js/html5lightbox.js"></script>
+
+<!-- REVOLUTION JS FILES -->
+<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+<script type="text/javascript" src="revolution/js/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.initialize2.js"></script>	
+
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
