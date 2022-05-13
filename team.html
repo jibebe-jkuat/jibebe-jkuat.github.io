@@ -1,140 +1,601 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
-    <title>Projects</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-
-            // Get all "navbar-burger" elements
-            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-            // Check if there are any navbar burgers
-            if ($navbarBurgers.length > 0) {
-
-                // Add a click event on each of them
-                $navbarBurgers.forEach(el => {
-                    el.addEventListener('click', () => {
-
-                        // Get the target from the "data-target" attribute
-                        const target = el.dataset.target;
-                        const $target = document.getElementById(target);
-
-                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                        el.classList.toggle('is-active');
-                        $target.classList.toggle('is-active');
-
-                    });
-                });
-            }
-
-        });
-    </script>
+<meta charset="UTF-8">
+<title>Jibebe | Teams</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+<link rel="stylesheet" type="text/css" href="lib/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/dark-color.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 
 <body>
-    <div class="hero-head">
-        <nav class="navbar">
-            <div class="container">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="/">
-                        <img src="image/jibebe_logo.png" />
-                    </a>
-                    <span class="navbar-burger" data-target="navbarMenuHeroA">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </div>
-                <div id="navbarMenuHeroA" class="navbar-menu">
-                    <div class="navbar-end">
-                        <a class="navbar-item" href="project.html">
-                            Projects
-                        </a>
-                        <a class="navbar-item" href="member.html">
-                            Members
-                        </a>
-                        <a class="navbar-item" href="team.html">
-                            Teams
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
 
 
-    <section class="hero is-link is-info">
-      <div class="hero-body" style='margin:auto;'>
-        <p class="title">
-          Teams
-        </p>
-      </div>
-    </section>
-  
-    <section class="section">
-      <div class="container column is-8 is-2-offset">
-        <h1 class="title">
-          Electrical team 
-        </h1>
-        <p class="subtitle">
-          Motor control, Charging system, Regenerative braking system
-        </p>
-      
-        <div class="columns is-centered">
-          <div class="column is-three-quarters">
-           <figure class="image">
-              <img src="./image/team/electrical.webp">
-           </figure>
-       </div>
 
-      </div>
-    </section>
-  
-    <section class="section">
-      <div class="container column is-8 is-2-offset">
-        <h1 class="title">
-          Mechanical team 
-        </h1>
-        <p class="subtitle">
-          Modification of the vehicle body, installation of the motor, structural
-strength and material
-        </p>
-      
-        <div class="columns is-centered">
-          <div class="column is-three-quarters">
-           <figure class="image">
-              <img src="./image/team/mechanical.webp">
-           </figure>
-       </div>
+	<div class="page-loading">
+		<div class="thecube">
+			<div class="cube c1"></div>
+			<div class="cube c2"></div>
+			<div class="cube c4"></div>
+			<div class="cube c3"></div>
+		</div>
+	</div><!--page-loading end-->
 
-      </div>
-    </section>
 
-    <section class="section">
-      <div class="container column is-8 is-2-offset">
-        <h1 class="title">
-          Automation team 
-        </h1>
-        <p class="subtitle">
-          Autonomous driving systems, Localization, Object detection
-        </p>
-      
-        <div class="columns is-centered">
-          <div class="column is-three-quarters">
-           <figure class="image">
-              <img src="./image/team/automation.webp">
-           </figure>
-       </div>
+	<div class="wrapper">
+		
+		<header class="pb no-bg stick">
+			<div class="container">
+				<div class="header-bar">
+					<div class="logo">
+						<a href="index.html" title=""><img src="images/logo.png" alt=""></a>
+					</div><!--logo end-->
+					<nav>
+						<ul>
+							<li><a  href="index.html" title="">Home</a></li>
+							<li><a href="#" title="">Projects</a>
+								<ul>
+										<li><a href="tricycle.html" title="">Electric Tricycle</a></li>
+										<li><a href="tractor.html" title="">Autonomous Tractor</a></li>
+										
+									</ul>
+							</li>
+							<li><a class="active" href="team.html" title="">Team</a></li>
+							<li><a href="demo.html" title="">Demo</a></li>
+							<li><a href="contact.html" title="">Contact</a></li>
+						</ul>
+					</nav><!--nav end-->
+					<div class="mobile-menu-btn">
+						<a href="#" title="" class="open-menu"><i class="fa fa-bars"></i></a>
+					</div><!--mobile-menu-btn end-->
+					
+				</div><!--header-bar end-->
+			</div>
+		</header>	
 
-      </div>
-    </section>
 
+
+		<div class="responsive-mobile-menu">
+			<a href="#" title="" class="close-menu"><i class="ion-close"></i></a>
+			<ul>
+				<li><a href="index.html" title="">Home</a>
+					
+				</li>
+				<li><a href="project.html" title="">Projects</a>
+					<ul>
+						<li><a href="tricycle.html" title="">Electric Tricycle</a></li>
+						<li><a href="tractor.html" title="">Autonomous Tractor</a></li>
+					</ul>
+				</li>
+				<li><a href="team.html" title="">Team</a>
+					
+				</li>
+				
+				<li><a href="demo.html" title="">Demo</a></li>
+				<li><a href="contact.html" title="">Contact</a></li>
+			</ul>
+		</div><!--responsive-mobile-menu end-->
+
+	
+
+
+	    <main>
+
+		    
+	    	 <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			<div class="title-sm">
+		    				<h3>our teams</h3>
+		    			</div><!-- title-sm end-->
+		    			<div class="specialization-data">
+		    				
+			    			<div class="specialization style2">
+				    			<div class="spec-details">
+				    				<div class="row">
+				    					<div class="col-lg-5">
+				    						<div class="spec-text bfr ep-icon">
+				    							<h3>Electrical Team</h3>
+				    							<p>The electrical team was in charge of speed and throttle control of the motor, design of electric vehicle charging system, PCB Design,and User interaction system design.
+				    							<br>	
+				    							The team is currently working on two papers regarding Battery and Motor Sizing for E-bikes and E-tricycles, and Speed and Motor Control for BLDC Motors for E-bikes and E-Tricycles.
+				    							</p>
+				    							
+				    						</div><!--spec-text end-->
+				    					</div>
+				    					<div class="col-lg-7">
+				    						<div class="spec-img">
+				    							<figure>
+				    								<img src="images/electrical.jpg" alt="">
+				    							</figure>
+				    						</div><!--spec-img end-->
+				    					</div>
+				    				</div>
+				    			</div><!--spec-details end-->
+			    			</div><!--specialization end-->
+			    		
+		    			</div><!--specialization-data end-->
+		    		</div>
+		    	</div>
+		    </section>
+		    
+
+
+		    <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			<div class="title-sm style2">
+		    				<h3>Electrical Team</h3>
+		    				
+		    			</div><!--title-sm end-->
+		    			<div class="trending-stories">
+		    				<div class="row">
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/moses.jpg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="https://www.linkedin.com/in/moses-mulwa/" title="">Moses Mulwa</a></h3>
+		    								<p>Electronic and Computer Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/amos.jpeg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Amos Wanene</a></h3>
+		    								<p>Electrical and Electronic Engineering</p>
+		    							
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/elias.jpeg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Elias Cheruiyot</a></h3>
+		    								<p>Agricultural and Biosystems Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/brian.jpeg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Brian Willy</a></h3>
+		    								<p>Electrical and Electronics Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    				</div>
+		    			</div><!--trending-stories end-->
+		    		</div>
+		    	</div>
+		    </section>
+
+
+		    <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			
+		    			<div class="specialization-data">
+		    				
+			    			<div class="specialization style2">
+				    			<div class="spec-details">
+				    				<div class="row">
+				    					<div class="col-lg-5">
+				    						<div class="spec-text bfr ep-icon">
+				    							<h3>Mechanical Team</h3>
+				    							<p>The mechanical team was tasked with design of the chassis, modification of the vehicle body, drive train design and implementation, structural and strength analysis of the system.
+				    							<br>	
+				    							The team is fluent in 3D modeling, structural simulation, and the machining of components.
+
+
+				    							</p>
+				    							
+				    						</div><!--spec-text end-->
+				    					</div>
+				    					<div class="col-lg-7">
+				    						<div class="spec-img">
+				    							<figure>
+				    								<img src="images/mechanical.png" alt="">
+				    							</figure>
+				    						</div><!--spec-img end-->
+				    					</div>
+				    				</div>
+				    			</div><!--spec-details end-->
+			    			</div><!--specialization end-->
+			    		
+		    			</div><!--specialization-data end-->
+		    		</div>
+		    	</div>
+		    </section>
+		    
+
+
+		    <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			<div class="title-sm style2">
+		    				<h3>Mechanical Team</h3>
+		    				
+		    			</div><!--title-sm end-->
+		    			<div class="trending-stories">
+		    				<div class="row">
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/alex.jpg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="https://www.linkedin.com/in/moses-mulwa/" title="">Alex Muchiri</a></h3>
+		    								<p>Mechanical Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/emmanuel.jpg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Emmanuel Njenga</a></h3>
+		    								<p>Mechanical Engineering</p>
+		    							
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/brian.jpg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Brian Muindi</a></h3>
+		    								<p>Mechanical Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/peter.png" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Peter Nzioki</a></h3>
+		    								<p>Agricultural and Biosystems Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    				</div>
+		    			</div><!--trending-stories end-->
+		    		</div>
+		    	</div>
+		    </section>
+
+
+		    <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			
+		    			<div class="specialization-data">
+		    				
+			    			<div class="specialization style2">
+				    			<div class="spec-details">
+				    				<div class="row">
+				    					<div class="col-lg-5">
+				    						<div class="spec-text bfr ep-icon">
+				    							<h3>Automation Team</h3>
+				    							<p>The automation team was in charge of  developing the autonomous driving system for the tractor. This involved implementation of systems for object detection, obstacle avoidance and GPS guidance.
+				    							<br>	
+				    							The team is currently working on implementing self-tilling capabilities in the tractor bot.
+				    							</p>
+				    							
+				    						</div><!--spec-text end-->
+				    					</div>
+				    					<div class="col-lg-7">
+				    						<div class="spec-img">
+				    							<figure>
+				    								<img src="images/automation.jpg" alt="">
+				    							</figure>
+				    						</div><!--spec-img end-->
+				    					</div>
+				    				</div>
+				    			</div><!--spec-details end-->
+			    			</div><!--specialization end-->
+			    		
+		    			</div><!--specialization-data end-->
+		    		</div>
+		    	</div>
+		    </section>
+		    
+
+
+		    <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			<div class="title-sm style2">
+		    				<h3>Automation Team</h3>
+		    				
+		    			</div><!--title-sm end-->
+		    			<div class="trending-stories">
+		    				<div class="row">
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/allan.jpg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="https://www.linkedin.com/in/moses-mulwa/" title="">Allan Were</a></h3>
+		    								<p>Agricultural and Biosystems Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/adho.jpg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Adho Mamo</a></h3>
+		    								<p>Agricultural and Biosystems Engineering</p>
+		    							
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/cynthia.jpg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Cynthia Jebet</a></h3>
+		    								<p>Agricultural and Biosystems Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/soumo.jpeg" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Emmanuel Suomo</a></h3>
+		    								<p>PAUSTI, MSc Mechatronic Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    				</div>
+		    			</div><!--trending-stories end-->
+		    		</div>
+		    	</div>
+		    </section>
+		    
+
+
+
+		    <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			<div class="title-sm style2">
+		    				<h3>supervisors</h3>
+		    				
+		    			</div><!--title-sm end-->
+		    			<div class="trending-stories">
+		    				<div class="row">
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/shohei.webp" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="https://www.linkedin.com/in/moses-mulwa/" title="">Dr Shohei Aoki</a></h3>
+		    								<p>Mechatronic Engineering JKUAT</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/chege.webp" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Mr Simon Chege</a></h3>
+		    								<p>Electrical and Electronic Engineering</p>
+		    							
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/jackson.webp" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Mr Jackson Oloo</a></h3>
+		    								<p>Electrical and Electronic Engineering</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/rono.webp" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="#" title="">Mr Rono Kipkorir</a></h3>
+		    								<p>Engineering Workshop, JKUAT</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/blank.png" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="https://www.linkedin.com/in/moses-mulwa/" title="">Mr Samuel Otieno</a></h3>
+		    								<p>Mechanical Engineering, JKUAT</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/blank.png" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="https://www.linkedin.com/in/moses-mulwa/" title="">Dr. Stephen Ondimu</a></h3>
+		    								<p>Agricultural Engineering, JKUAT</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    					<div class="col-lg-6">
+		    						<div class="tr-news">
+		    							<div class="tr-news-img">
+		    								<img src="images/blank.png" alt="">
+		    							</div><!--tr-news-img end-->
+		    							<div class="treding-new">
+		    								
+		    								<h3><a href="https://www.linkedin.com/in/moses-mulwa/" title="">Mr. Joseph Kimani</a></h3>
+		    								<p>Mechanical Engineering, JKUAT</p>
+		    								
+		    							</div><!--treding-new end-->
+		    						</div><!--tr-news end-->
+		    					</div>
+		    				</div>
+		    			</div><!--trending-stories end-->
+
+		    		</div>
+		    	</div>
+		    </section>
+		    
+
+		      <section>
+		    	<div class="block remove-btm-gap">
+		    		<div class="container">
+		    			<div class="title-sm style2">
+		    				<h3>thank you</h3>
+		    				
+		    			</div><!--title-sm end-->
+		    			
+		    		</div>
+		    	</div>
+		    </section>
+		   
+
+	    </main>
+
+	    <footer>
+			<div class="footer-data">
+				<div class="container">
+					<div class="ft-contact-info">
+						<h1>Let’s work together</h1>
+						<!-- <h1>hello@kons.co</h1> -->
+						<h3>Jomo Kenyatta University of Agriculture and Technology</h3>
+						<h3>P.O. Box 62 000 – 00200 </h3>
+						<h3>NAIROBI, KENYA</h3>
+						<!-- <h3>(+035) 527-1710-70</h3> -->
+					</div><!--ft-contact-info end-->
+					<div class="social-copyright">
+						<ul>
+							<li><a href="#" title="">Youtube</a></li>
+							<li><a href="#" title="">Github</a></li>
+						</ul>
+						<p>Made by <a href="https://mulwa.co.ke/">Mulwa</a></p>
+						<div class="copyright-text">
+							<p>© 2022 Jibebe. All Rights Reserved</p>
+							
+						</div>
+					</div><!--social-copyright end-->
+				</div>
+			</div><!--footer-data end-->
+		</footer>
+
+
+
+	</div><!--wrapper end-->
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/slick/slick.js"></script>
+<script type="text/javascript" src="js/html5lightbox.js"></script>
+
+<!-- REVOLUTION JS FILES -->
+<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+<script type="text/javascript" src="revolution/js/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.initialize2.js"></script>	
+
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
