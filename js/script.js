@@ -98,6 +98,14 @@ $(window).on("load", function() {
 
     $('.page-loading').fadeOut();
 
+// Get the modal
+var modal = document.getElementById('myModal');
+var accept = document.getElementById("accept");
+modal.style.display = "block";
+accept.onclick = function() {
+  modal.style.display = "none";
+}
+
 
 });
 

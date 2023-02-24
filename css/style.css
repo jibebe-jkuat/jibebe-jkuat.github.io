@@ -4534,3 +4534,83 @@ main.lght .ep-icon:after {
 .pd-right-none {
 	padding-right: 0;
 }
+
+
+/* modal */
+/* The Modal (background) */
+
+.modal {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+	
+  }
+  
+  
+  /* Modal Content/Box */
+  
+  .modal-content {
+	color: #414242;
+	margin: 15% auto;
+	/* 15% from the top and centered */
+	padding: 30px 60px;
+	width: 500px;
+	/* Could be more or less, depending on screen size */
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	-webkit-font-smoothing: antialiased;
+	/* Rectangle 2 Copy 3: */
+	background: #FFFFFF;
+	border: 1px solid #9B9C9D;
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.20);
+	border-radius: 6px;
+  }
+  
+  .modal-content a {
+	color: #636464;
+  }
+  
+  .modal-content > h1 {
+	display: block;
+	width: 100%;
+	text-align: center;
+  }
+  
+  button#accept {
+	margin: 30px auto;
+	display: block;
+	border: 1px solid #fc4c02;
+	border-radius: 3px;
+	background: #fff;
+	color: #fc4c02;
+	font-size: 16px;
+	height: 48px;
+	padding: 0 20px;
+	cursor: pointer;
+  }
+  
+  .safety {
+	color: #9B9C9D;
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+  }
+  
